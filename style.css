@@ -1,7 +1,9 @@
-<!doctype html>
 
-   <html>
-
+     body {
+         background: url('trum.jpg') no-repeat;
+         background-size:cover;
+         font-family:Arial;
+     }
 
      ul {
          margin:0px;
@@ -31,4 +33,4 @@
      ul li:hover ul li {
          display:block;
      }
-   </html>
+   
