@@ -1,6 +1,6 @@
 
      body {
-         background: url('trump.jpg') no-repeat;
+         background: url("trump.jpg") no-repeat;
          background-size:cover;
          font-family:Arial;
      }
@@ -29,7 +29,7 @@
      ul li a:hover {
          background-color:green;
      ul li ul li {
-         display:none;
+         display:hide;
      }
      ul li:hover; ul li {
          display:block;
