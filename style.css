@@ -28,7 +28,7 @@
      ul li ul li {
          display:none;
      }
-     ul li ul li {
+     ul li ul li:hover {
          display:block;
      }
    </html>
