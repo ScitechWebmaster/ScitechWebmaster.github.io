@@ -1,6 +1,6 @@
 
      body {
-         background: url("trump.jpg") no-repeat;
+         background: img("trump.jpg") no-repeat;
          background-size:cover;
          font-family:Arial;
      }
@@ -12,8 +12,8 @@
      }
      ul li {
          float:left;
-         width:200px;
-         height:60px;
+         width:100px;
+         height:40px;
          background-color:black;
          opacity:.8;
          line-height:40px;
