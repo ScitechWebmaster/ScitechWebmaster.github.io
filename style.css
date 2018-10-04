@@ -2,7 +2,7 @@
      body {
          background: url("mickey.gif") no-repeat;
          background-size:cover;
-         font-family:script;
+         font-family:Arial;
          
      }
   .img1 { background-image: url("mickey.gif"); }
@@ -62,7 +62,7 @@
          text-decoration:none;
          color:#005aff;
          display:block;
-         font-family:script;
+         font-family:Arial;
      }
      ul li a:hover {
          background-color:#013e03;
