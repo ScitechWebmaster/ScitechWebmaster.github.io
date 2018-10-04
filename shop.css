@@ -5,7 +5,22 @@
       }
 } */
 /* CSS Document */
-@media (max-width: 960px) {
+@media (max-width: 1334px) {
+      .header { grid-area: header; }
+      .menu { grid-area: menu; }
+      .banner { grid-area: banner; }
+      .album1 { grid-area: album1; }
+      .album2 { grid-area: album2; }
+      .tickets { grid-area: tickets; }
+      .shirts { grid-area: shirts; }
+      .necklaces { grid-area: necklaces; }
+      .bracelets { grid-area: bracelets; }
+      .lightsticks { grid-area: lightsticks; }
+      .posters { grid-area: posters; }
+      .sold out { grid-area: sold out; }
+      .limited edition { grid-area: limited edition; }
+      
+ @media (max-width: 960px) {
       .header { grid-area: header; }
       .menu { grid-area: menu; }
       .banner { grid-area: banner; }
