@@ -6,8 +6,8 @@
      }
 
      ul {
-         margin:0px;
-         padding:0px;
+         margin:20px;
+         padding:110px;
          list-style:none;
      }
      ul li {
@@ -18,15 +18,16 @@
          opacity:.8;
          line-height:40px;
          text-align:center;
-         font-size:20px;
-         margin-right:2px;
-         margin-bottom:4px;
+         font-size:25px;
+         margin-right:5px;
+         margin-bottom:5px;
      }
      ul li a {
          text-decoration:none;
-         color:white;
+         color:#005aff;
          display:block;
+         font-family:fantasy;
      }
      ul li a:hover {
-         background-color:green;
+         background-color:#013e03;
 
