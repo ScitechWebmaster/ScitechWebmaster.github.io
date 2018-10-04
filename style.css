@@ -1,8 +1,13 @@
 
      body {
-         background: url("mickey.gif") no-repeat;
          background-size:cover;
          font-family:script;
+         .img1 { background-image: url("mickey.gif"); }
+         .img2 { background-image: url("minnie.gif"); }
+         .img3 { background-image: url("dance.gif"); }
+         .img4 { background-image: url("bird.gif"); }
+         .img5 { background-image: url("depression.gif"); }
+         .img6 { background-image: url("trumpet.gif"); }
      }
 
   .bg-image {
@@ -14,12 +19,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
- .img1 { background-image: url("mickey.gif"); }
- .img2 { background-image: url("minnie.gif"); }
- .img3 { background-image: url("dance.gif"); }
- .img4 { background-image: url("bird.gif"); }
- .img5 { background-image: url("depression.gif"); }
- .img6 { background-image: url("trumpet.gif"); }
+ 
  
  ////* Position text in the middle */
 .bg-text {
