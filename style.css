@@ -2,7 +2,7 @@
      body {
          background: url("mickey.gif") no-repeat;
          background-size:cover;
-         font-family:Arial;
+         font-family:script;
      }
 
      ul {
@@ -12,7 +12,7 @@
      }
      ul li {
          float:left;
-         width:300px;
+         width:240px;
          height:40px;
          background-color:black;
          opacity:.8;
