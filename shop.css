@@ -6,4 +6,5 @@
 } */
 /* CSS Document */
 @media (min-width: 360px) {
-      .
+      .header { grid-area: header; }
+      
