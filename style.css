@@ -26,6 +26,7 @@
          color:#005aff;
          display:block;
          font-family:Arial;
+         opacity:.8;
      }
      ul li a:hover {
          background-color:#013e03;
