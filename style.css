@@ -1,10 +1,10 @@
 
      body {
-          background-size:cover;
-          font-family:Arial;
-         
+         background: url("mickey.gif") no-repeat;
+         background-size:cover;
+         font-family:Arial;
      }
- 
+
      ul {
          margin:20px;
          padding:110px;
@@ -30,4 +30,3 @@
      }
      ul li a:hover {
          background-color:#013e03;
-
