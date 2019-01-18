@@ -34,56 +34,73 @@
       .posters { grid-area: posters; }
       .sold out { grid-area: sold out; }
       .limited edition { grid-area: limited edition; }
-      
+   
+  /* This is where the css columns will begin */
+      .header {width: 8.33%;}
+      .menu {width: 8.33%;}
+      .banner {width: 8.33%;}
+      .album1 {width: 8.33%;}
+      .album2 {width: 8.33%;}
+      .tickets {width: 8.33%;}
+      .shirts {width: 8.33%;}
+      .necklaces {width: 8.33%;}
+      .bracelets {width: 8.33%;}
+      .lightsticks {width: 8.33%;}
+      .posters {width: 8.33%;}
+      .sold out {width: 8.33%;}
+      .limited edition {width: 8.33%;}
+
+       
+/* This is where the original code starts */
 #header {
-      
+      box-sizing: border-box;
        }
        
 #menu {
-      
+       box-sizing: border-box;
        }
        
 #banner {
-      
+       box-sizing: border-box;
        }
        
 #album1 {
-      
+       box-sizing: border-box;
        }
        
 #album2 {
-      
+       box-sizing: border-box;
        }
        
 #tickets{
-      
+       box-sizing: border-box;
        }
        
 #shirts{
-      
+       box-sizing: border-box;
        }
        
 #necklaces{
-      
+       box-sizing: border-box;
        }
        
 #bracelets{
-      
+       box-sizing: border-box;
        }
        
 #lightsticks{
-      
+       box-sizing: border-box;
        }
        
 #posters{
-      
+       box-sizing: border-box;
        }
        
 #sold out{
-      
+       box-sizing: border-box;
        }
        
 #limited edition{ 
-      
+       box-sizing: border-box;
        }
       
