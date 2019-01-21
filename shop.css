@@ -36,19 +36,19 @@
       .limited edition { grid-area: limited edition; }
    
   /* This is where the css columns will begin */
-      .header {width: 8.33%;}
-      .menu {width: 8.33%;}
-      .banner {width: 8.33%;}
-      .album1 {width: 8.33%;}
-      .album2 {width: 8.33%;}
-      .tickets {width: 8.33%;}
-      .shirts {width: 8.33%;}
-      .necklaces {width: 8.33%;}
-      .bracelets {width: 8.33%;}
-      .lightsticks {width: 8.33%;}
-      .posters {width: 8.33%;}
-      .sold out {width: 8.33%;}
-      .limited edition {width: 8.33%;}
+      .header {width:7.69%;}
+      .menu {width: 7.69%;}
+      .banner {width: 7.69%;}
+      .album1 {width: 7.69%;}
+      .album2 {width: 7.69%;}
+      .tickets {width: 7.69%;}
+      .shirts {width: 7.69%;}
+      .necklaces {width: 7.69%;}
+      .bracelets {width: 7.69%;}
+      .lightsticks {width: 7.69%;}
+      .posters {width: 7.69%;}
+      .sold out {width: 7.69%;}
+      .limited edition {width: 7.69%;}
 
        
 /* This is where the original code starts */
@@ -56,8 +56,9 @@
       box-sizing: border-box;
        }
        
-#menu {
+.menu {
        box-sizing: border-box;
+       float: left;
        }
        
 #banner {
@@ -103,4 +104,14 @@
 #limited edition{ 
        box-sizing: border-box;
        }
+       
+.cap { 
+       box-sizing: border-box;
+       }
+       
+.hoodie { 
+       box-sizing: border-box;
+       }
+ 
+      
       
