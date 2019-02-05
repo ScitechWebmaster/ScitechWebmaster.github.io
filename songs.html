@@ -48,13 +48,38 @@
 .song2:hover .overlay {
   opacity: 1;
 }
+  
+  
+  
+/*Code to position the gifs are */
+  .bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Images used */
+.img1 { background-image: url(mickey.gif); }
+.img2 { background-image: url("minnie.gif"); }
+.img3 { background-image: url("bird.gif"); }
+.img4 { background-image: url("dance.gif"); }
+.img5 { background-image: url("depression.gif"); }
+.img6 { background-image: url("trumpet.gif"); }
+
 </style>
+
+
+
+
 <body>
 <div class="container">
   <img src="cover.jpg" alt="song cover" class="image">
   <div class="overlay">SONG/ALBUM NAME</div>
   <audio controls>
-  <source src=" " type="audio/ogg">  //////////////////////////////////////////////////////////*ADD AUDIO*/////////////////
+  <source src=" " type="audio/ogg"> /*ADD AUDIO*/
   <source src=" " type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
@@ -63,13 +88,19 @@ Your browser does not support the audio element.
 <div class="song2">
   <img src="cover.jpg" alt="song cover" class="image">
   <audio controls>
-  <source src=" " type="audio/ogg">  //////////////////////////////////////////////////////////*ADD AUDIO*/////////////////
+  <source src=" " type="audio/ogg"> /*ADD AUDIO*/
   <source src=" " type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 </div>
 
-
+/*This is where the GIFS are added/changed */
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
 </body>
 
 </html>
