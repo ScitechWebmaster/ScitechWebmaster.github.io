@@ -35,55 +35,70 @@
       .sold out { grid-area: sold out; }
       .limited edition { grid-area: limited edition; }
       
-#header {
+.header {
       
        }
        
-#menu {
+.menu {
+      position:right;
+      height:10%;
+      width:10%;
+       }
+       
+.banner {
       
        }
        
-#banner {
+.album1 {
       
        }
        
-#album1 {
+.album2 {
       
        }
        
-#album2 {
+.tickets{
       
        }
        
-#tickets{
+.shirts{
       
        }
        
-#shirts{
+.necklaces{
       
        }
        
-#necklaces{
+.bracelets{
       
        }
        
-#bracelets{
+.lightsticks{
       
        }
        
-#lightsticks{
+.posters{
       
        }
        
-#posters{
+.sold out{
       
        }
        
-#sold out{
-      
-       }
-       
-#limited edition{ 
+.limited edition{ 
       
        }
       
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
