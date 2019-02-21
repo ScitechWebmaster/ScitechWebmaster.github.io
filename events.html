@@ -19,8 +19,25 @@
     </div>
   </div> 
   
+  /*Added by Hannah*/
+  <link href="team.css" rel="stylesheet" type="text/css">
+  
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+  
+  /* for the popups*/
+  <script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+ /*popup code ends*/
+  
+  
+  
+  
 <style>
 /* Add a black background color to the top navigation */
 .topnav {
@@ -132,7 +149,7 @@
   
   <div class="sidebox">
   
-    <p>Tickets for the 2020 Asia tour are out now!</p>
+    <p>Tickets for the 2019 world tour are out now!</p>
   </div>
   
   
@@ -209,7 +226,7 @@
       <li>Zurich,Switzerland</li>
   
   </ol>
-
+</div>
   
   
   <ol>
@@ -260,9 +277,16 @@
   /*The lists end here*/
   
   
+  /*code for 'buy' buttons*/
   
+   <button type="button">Click Me!</button> 
+  /*trial for the popup*/
   
-  
+   <div class="popup" onclick="myFunction()">Click me!
+      <span class="popuptext" id="myPopup">Popup text...</span>
+   </div> 
+ 
+  /*trial ends*/
   
   
  </body>
