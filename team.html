@@ -1,0 +1,217 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Team</title>
+<link href="team.css" rel="stylesheet" type="text/css">
+
+
+/*nav code begins*/
+<html lang="en-US">
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="bio.html">About</a>
+  <a href="songs.html">Songs</a>
+  <a href="shop.html">Shop</a> 
+  <a href="events.html">Events</a>
+  <a href="help.html">Help</a> 
+  <a href="team.html">Meet the Team</a> 
+  <div class="dropdown">
+    <button class="dropbtn">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="ScitechWebmaster.github.io/worklog.pdf">Work Log</a>
+      <a href="ScitechWebmaster.github.io/CopyRight&tPhotoRelease.pdf">Copy Right Checklist</a>
+      <a href="ScitechWebmaster.github.io/LEAP.pdf">LEAP Form</a>
+    </div>
+  </div> 
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<style>
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 20px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 60px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* When the screen is less than 1000 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+/*Nav code ends*/
+
+
+/*also for the nav bar*/
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  
+  </script>
+</head>
+	
+     
+<body>
+
+<section id="section-b">
+		<p align="center">
+		<br />
+	<h1>Meet the Team</h1>
+		<br />
+		<br />
+			We are the team behind "Artist".
+		</p>
+	</section>
+  
+  
+	<section id="section-c">
+	<div class="box-1">
+
+	</div>
+	<div class="box-2">
+
+	</div>
+		<div class="box-3">
+	
+	</div>
+		
+	</section>
+	
+	<section id="section-d">
+
+		<div class="box-4">
+			<p> Hannah Garcia
+		<br />
+		Positions: Team Leader, Presenter, Researcher, HTML & CSS Programmer, Media Specialist, HTML team specialist.
+		</p>
+		
+
+		</div>
+
+		<div class="box-5">
+
+			<p> Caleb Gomez
+		<br />
+		Positions: Assistant-Leader, Presenter, Researcher, HTML & CSS Programmer, and HTML team specialist.
+		</p>
+
+		</div>
+
+		<div class="box-6">
+			<p> Kashish Kumar
+		<br />
+		Positions: Member, Presenter, HTML & CSS Programmer, and CSS specialist.
+		</p>
+
+		</div>
+
+	</section>
+	
+  
+</body>
+
+
+
+</html>
