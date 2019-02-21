@@ -1,0 +1,10 @@
+
+
+/*for the first left box*/
+.sidebox{
+    content-align: center;
+    width:25%;
+    height:90px;
+    box-sizing: border-box;
+}
+
