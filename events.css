@@ -1,11 +1,50 @@
 
 
+
+body {
+	font-family: "Arsenal Regular",sans-serif;
+	font-size: 40px;
+	padding: 0px;
+	line-height: 2;
+    color:#1d1145;
+}
+
 /*for the first left box*/
 .sidebox{
     content-align: center;
     width:25%;
     height:90px;
     box-sizing: border-box;
+    background-color:#f2a1a1;
+    color:white;
+}
+
+.sidebox{
+    content-align: center;
+    width:25%;
+    height:90px;
+    background-color:#f2a1a1;
+    color:white;
+    
+}
+
+.sidebox2{
+    content-align: center;
+    width:25%;
+    height:90px;
+    background-color:#f2a1a1;
+    color:white;
+}
+
+.sidebox3{
+    content-align: center;
+    width:25%;
+    height:90px;
+    background-color:#f2a1a1;
+}
+
+h3 {
+    color:white;
 }
 
 /*code for the pop up*/
@@ -64,4 +103,31 @@
 
 /*popup code ends*/
 
+.list{
+    
+    content-align:left;
+    text-align:justify;
+    width:50%;
+    height:auto;
+    padding:10px;
+    margin:auto;
+    background-color:#1d1145;
+}
+
+
+.dates{
+    
+    content-align:left;
+    width:50%;
+    height:auto;
+    padding:10px;
+    margin:auto;
+    background-color:#1d1145;
+}
+
+
+p{
+ line height:1px; 
+ font-size: 20px;
+}
 
