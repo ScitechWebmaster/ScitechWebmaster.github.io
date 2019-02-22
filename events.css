@@ -50,15 +50,14 @@ body {
 #section-d .box-4{
 	height: 50px;
 	width: 10%;
-	align:left;
+	align: 
 	text-align:center;
 	background-color:#668cff;
 }
 
 #section-d .box-8{
 	height: 50px;
-	width: 10%;
-	align:right;
+	width: 15%;
 	text-align:center;
 	background-color:#668cff;
 }
