@@ -42,20 +42,19 @@ body {
 
 #section-c .box-1, #section-c .box-3{
 	background: #295D9B;
-	color: black;
+	color: white;
 	
 }
 
 #section-c .box-2{
 	background: #f9f9f9;
-	color: black;
+	color: blue;
 	
 }
 
 /*----The actual photos and sizing of them------*/
 
 #section-c .box-1{
-	background-image:url("ScitechWebmaster.github.io/Hannah.jpg");
 	background-size: cover;
 	width: 33%;
 	height: 250px;
@@ -64,7 +63,6 @@ body {
 }
 
 #section-c .box-2{
-	background-image:url("ScitechWebmaster.github.io/calebf.jpg");
 	background-size:cover;
 	width: 33%;
 	height: 250px;
@@ -72,7 +70,6 @@ body {
 }
 
 #section-c .box-3{
-	background-image:url("ScitechWebmaster.github.io/kashishf.jpg");
 	background-size: cover;
 	width: 33%;
 	height: 250px;
