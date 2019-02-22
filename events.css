@@ -49,7 +49,7 @@ body {
 
 #section-d .box-4{
 	height: 50px;
-	width: 7.5%;
+	width: 10%;
 	text-align:center;
 	background-color:blue;
 }
@@ -59,15 +59,15 @@ body {
 	width: 37.5%;
 	padding:0px;
 	background-size:cover;
-	text-align:right;
+	text-align:left;
 }
 
 #section-d .box-6{
 	background-size:cover;
 	height:50px;
-	width: 7.5%;
+	width: 10%;
 	text-align:center;
-	background-color:#1d1145;
+	background-color:blue;
 }
 
 #section-d .box-7{
@@ -82,5 +82,5 @@ body {
 a{
 	
 	text-decoration: none;
-	color: blue;
+	color: black;
 }
