@@ -15,10 +15,19 @@ body {
 	text-align:center;
 }
 
+/*------Meet the Team------*/
+
+#section-b{
+	padding: 20px;
+	background:white;
+	color: black;
+	text-align: center;
+}
+
 /*------Bios------*/
 
 
-#section-l {
+#section-d {
 	display: flex;
 	text-align: center;
 	overflow: hidden;
@@ -29,38 +38,41 @@ body {
 	background: white;
 }
 
-#section-l div{
+#section-d div{
 	padding:50px;
 	padding-bottom:400px;
 
 }
 
 
-#section-l .box-7, #section-d .box-8, #section-d .box-9{
+#section-d .box-4, #section-d .box-5, #section-d .box-6{
 	background: white;
 	color: #295D9B;
 	text-align:center;
 	
 }
 
-#section-l .box-7{
+#section-d .box-4{
 	height: 50px;
 	width: 25%;
 	text-align:center;
 }
 
-#section-l .box-8{
+#section-d .box-5{
 	height:50px;
 	width: 25%;
 	background-size:cover;
 	text-align:left;
 }
 
-#section-l .box-9{
+#section-d .box-6{
 	background-size:cover;
 	height:50px;
 	width: 25%;
 	text-align:center;
 }
 
-
+	color: #295D9B;
+	text-align:center;
+	
+}
