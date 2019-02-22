@@ -173,3 +173,75 @@ body {
 	width: 33%;
 	text-align:center;
 }
+
+
+///////////////////////////////
+
+#section-f .box-10{
+	background-image:url("ScitechWebmaster.github.io/bracelet.jpg");
+	background-size: cover;
+	width: 33%;
+	height: 250px;
+	
+	
+}
+
+#section-f .box-11{
+	background-image:url("ScitechWebmaster.github.io/hoodie.jpg");
+	background-size:cover;
+	width: 33%;
+	height: 250px;
+
+}
+
+#section-f .box-12{
+	background-image:url("ScitechWebmaster.github.io/necklace.jpg");
+	background-size: cover;
+	width: 33%;
+	height: 250px;
+}
+
+#section-e {
+	display: flex;
+	text-align: center;
+	overflow: hidden;
+	list-style: none;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	background: white;
+}
+
+#section-e div{
+	padding:50px;
+	padding-bottom:400px;
+
+}
+
+
+#section-e .box-7, #section-e .box-8, #section-e .box-9{
+	background: white;
+	color: #295D9B;
+	text-align:center;
+	
+}
+
+#section-e .box-7{
+	height: 50px;
+	width: 33%;
+	text-align:center;
+}
+
+#section-e .box-8{
+	height:50px;
+	width: 33%;
+	background-size:cover;
+	text-align:center;
+}
+
+#section-e .box-9{
+	background-size:cover;
+	height:50px;
+	width: 33%;
+	text-align:center;
+}
