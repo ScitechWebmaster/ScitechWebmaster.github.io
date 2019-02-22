@@ -1,58 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
- /* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-} 
 body {
 	font-family: "Arsenal Regular",sans-serif;
 	font-size: 20px;
@@ -176,14 +124,28 @@ body {
 
 
 ///////////////////////////////
+#section-f {
+	display: flex;
+	text-align: center;
+	overflow: hidden;
+	list-style: none;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	background: white;
+}
+#section-f div{
+	padding:50px;
+	padding-bottom:400px;
+
+}
+
 
 #section-f .box-10{
-	background-image:url("ScitechWebmaster.github.io/bracelet.jpg");
-	background-size: cover;
+	background-size:cover;
+	height:50px;
 	width: 33%;
-	height: 250px;
-	
-	
+	text-align:center;
 }
 
 #section-f .box-11{
@@ -201,23 +163,18 @@ body {
 	height: 250px;
 }
 
-#section-e {
+
+
+#section-e{
 	display: flex;
-	text-align: center;
-	overflow: hidden;
-	list-style: none;
-	font-size: 20px;
-	color: black;
-	text-decoration: none;
-	background: white;
+	
 }
+
+/*-----Contains all the boxes inside------*/
 
 #section-e div{
-	padding:50px;
-	padding-bottom:400px;
-
+	padding: 200px 200px;
 }
-
 
 #section-e .box-7, #section-e .box-8, #section-e .box-9{
 	background: white;
@@ -226,22 +183,37 @@ body {
 	
 }
 
-#section-e .box-7{
-	height: 50px;
-	width: 33%;
-	text-align:center;
+#section-e .box-1, #section-e .box-3{
+	background: #295D9B;
+	color: black;
+	
 }
 
-#section-e .box-8{
-	height:50px;
-	width: 33%;
+#section-e .box-2{
+	background: #f9f9f9;
+	color: black;
+	
+}
+
+#section-e .box-7{
+	background-image:url("ScitechWebmaster.github.io/hoodie.jpg");
 	background-size:cover;
-	text-align:center;
+	width: 33%;
+	height: 250px;
+
+}
+#section-e .box-8{
+	background-image:url("ScitechWebmaster.github.io/hoodie.jpg");
+	background-size:cover;
+	width: 33%;
+	height: 250px;
+
 }
 
 #section-e .box-9{
+	background-image:url("ScitechWebmaster.github.io/hoodie.jpg");
 	background-size:cover;
-	height:50px;
 	width: 33%;
-	text-align:center;
+	height: 250px;
+
 }
