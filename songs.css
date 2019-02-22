@@ -7,6 +7,7 @@ lyrics1 {
 	width: 60%;
 	text-align:center;
 	background-color:#1d1145;
+	left:150vw;
 }
 
 }
@@ -17,7 +18,9 @@ lyrics2 {
 	width: 60%;
 	text-align:center;
 	background-color:#1d1145;
+	left:150vw;
 }
+
 
 
 
@@ -26,4 +29,5 @@ lyrics3 {
 	width: 60%;
 	text-align:center;
 	background-color:#1d1145;
+	left:150vw;
 }
