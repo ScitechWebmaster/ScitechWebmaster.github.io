@@ -54,13 +54,13 @@ body {
 
 #section-d .box-4{
 	height: 50px;
-	width: 0%;
+	width: 25%;
 	text-align:center;
 }
 
 #section-d .box-5{
 	height:50px;
-	width: 50%;
+	width: 25%;
 	background-size:cover;
 	text-align:left;
 }
