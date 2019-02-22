@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	font-family: Arial, "Helectiva";
+	line height: 2px;
+	
+}
 
 lyrics1 {
   height: 50px;
