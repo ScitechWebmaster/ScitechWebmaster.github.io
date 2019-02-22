@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Team</title>
+<link href="shop.css" rel="stylesheet" type="text/css">	
+	
+  <html lang="en-US">	
   <div class="topnav" id="myTopnav">
   <a href="index.html">Home</a>
   <a href="bio.html">About</a>
@@ -20,7 +26,6 @@
     </div>
   </div> 
   
-<link href="shop.css" rel="stylesheet" type="text/css">	  
 	  
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
@@ -129,8 +134,20 @@
     text-align: left;
   }
 }
-  
+	  </style>  
 
+	  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  
+  </script>
+	  
 </head>
 
 <body>
