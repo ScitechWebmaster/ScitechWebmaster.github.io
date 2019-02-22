@@ -62,7 +62,7 @@ body {
 	text-align:left;
 }
 
-#section-d .box-6{
+#section-d .box-6, #section-d .box-8{
 	background-size:cover;
 	height:50px;
 	width: 10%;
