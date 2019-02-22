@@ -26,54 +26,6 @@ body {
 
 /*------Bios------*/
 
-#section-c{
-	display: flex;
-	
-}
-
-/*-----Contains all the boxes inside------*/
-
-#section-c div{
-	padding: 200px 200px;
-}
-
-
-/*------Boxes color scheme-----*/
-
-#section-c .box-1, #section-c .box-3{
-	background: #295D9B;
-	color: white;
-	
-}
-
-#section-c .box-2{
-	background: #f9f9f9;
-	color: blue;
-	
-}
-
-/*----The actual photos and sizing of them------*/
-
-#section-c .box-1{
-	background-size: cover;
-	width: 33%;
-	height: 250px;
-	
-	
-}
-
-#section-c .box-2{
-	background-size:cover;
-	width: 33%;
-	height: 250px;
-
-}
-
-#section-c .box-3{
-	background-size: cover;
-	width: 33%;
-	height: 250px;
-}
 
 #section-d {
 	display: flex;
@@ -102,13 +54,13 @@ body {
 
 #section-d .box-4{
 	height: 50px;
-	width: 33%;
+	width: 25%;
 	text-align:center;
 }
 
 #section-d .box-5{
 	height:50px;
-	width: 33%;
+	width: 50%;
 	background-size:cover;
 	text-align:center;
 }
@@ -116,6 +68,6 @@ body {
 #section-d .box-6{
 	background-size:cover;
 	height:50px;
-	width: 33%;
+	width: 25%;
 	text-align:center;
 }
