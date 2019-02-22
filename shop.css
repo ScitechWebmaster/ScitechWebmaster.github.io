@@ -7,6 +7,14 @@ body {
 	padding: 0px;
 	line-height: 2;
 }
+#section-a{
+	padding:20px;
+	background:white;
+	color:black;
+	text-align:center;
+}
+
+/*------Meet the Team------*/
 
 #section-b{
 	padding: 20px;
@@ -15,6 +23,7 @@ body {
 	text-align: center;
 }
 
+/*------Bios------*/
 
 #section-c{
 	display: flex;
@@ -45,7 +54,7 @@ body {
 /*----The actual photos and sizing of them------*/
 
 #section-c .box-1{
-	background-image:url("../Pictures used in website/HANNAH2-TEAMPROFILE.jpeg");
+	background-image:url("ScitechWebmaster.github.io/Hannah.jpg");
 	background-size: cover;
 	width: 33%;
 	height: 250px;
@@ -54,7 +63,7 @@ body {
 }
 
 #section-c .box-2{
-	background-image:url("../Pictures used in website/STELLA-TEAMPROFILE.jpg");
+	background-image:url("ScitechWebmaster.github.io/caleb3.jpg");
 	background-size:cover;
 	width: 33%;
 	height: 250px;
@@ -62,7 +71,7 @@ body {
 }
 
 #section-c .box-3{
-	background-image:url("../Pictures used in website/ANIK-TEAMPROFILE.jpg");
+	background-image:url("ScitechWebmaster.github.io/kashish.jpg");
 	background-size: cover;
 	width: 33%;
 	height: 250px;
