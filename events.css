@@ -47,8 +47,16 @@ body {
 	
 }
 
-#section-d .box-4, #section-d .box-8{
+#section-d .box-4{
 	height: 50px;
+	width: 10%;
+	text-align:center;
+	background-color:#668cff;
+}
+
+#section-d .box-8{
+	height: 50px;
+	align:right;
 	width: 10%;
 	text-align:center;
 	background-color:#668cff;
