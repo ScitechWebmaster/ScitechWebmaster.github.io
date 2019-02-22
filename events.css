@@ -58,6 +58,7 @@ body {
 	height: 50px;
 	align:right;
 	width: 10%;
+	padding:10px;
 	text-align:center;
 	background-color:#668cff;
 }
@@ -81,10 +82,11 @@ body {
 #section-d .box-7{
 	background-size:cover;
 	height:50px;
-	width: 30%;
+	width: 37.5%;
 	padding:0px;
 	text-align:right;
 }
+
 
 
 a{
