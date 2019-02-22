@@ -50,7 +50,6 @@ body {
 #section-d .box-4{
 	height: 50px;
 	width: 10%;
-	align: 
 	text-align:center;
 	background-color:#668cff;
 }
@@ -58,8 +57,7 @@ body {
 #section-d .box-8{
 	height: 50px;
 	width: 10%;
-	padding-left:10px;
-	padding-right:0px;
+margin-left:10px;
 	text-align:center;
 	background-color:#668cff;
 }
