@@ -34,13 +34,13 @@ body {
 }
 
 #section-d div{
-	padding:50px;
+	padding:20px;
 	padding-bottom:400px;
 
 }
 
 
-#section-d .box-4, #section-d .box-5, #section-d .box-6{
+ #section-d .box-5,  #section-d .box-7{
 	background: white;
 	color: #295D9B;
 	text-align:center;
@@ -51,32 +51,36 @@ body {
 	height: 50px;
 	width: 7.5%;
 	text-align:center;
+	background-color:blue;
 }
 
 #section-d .box-5{
 	height:50px;
 	width: 37.5%;
+	padding:0px;
 	background-size:cover;
-	text-align:center;
+	text-align:right;
 }
 
 #section-d .box-6{
 	background-size:cover;
 	height:50px;
-	width: 37.5%;
+	width: 7.5%;
 	text-align:center;
+	background-color:#1d1145;
 }
 
 #section-d .box-7{
 	background-size:cover;
 	height:50px;
-	width: 7.5%;
-	text-align:center;
+	width: 37.5%;
+	padding:0px;
+	text-align:right;
 }
 
 
-ol a{
+a{
 	
 	text-decoration: none;
-	color: black;
+	color: blue;
 }
