@@ -227,16 +227,16 @@ function test_input($data) {
 }
 ?>
   
-   <form action="/response.html" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+   <form action="/response.php" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   Name: <input type="text" name="name" value="<?php echo $name;?>">
 </form>
-     <form action="/response.html" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+     <form action="/response.php" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 E-mail: <input type="text" name="email" value="<?php echo $email;?>">
 </form>
-       <form action="/response.html" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+       <form action="/response.php" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 Website: <input type="text" name="website" value="<?php echo $website;?>">
 </form>
-         <form action="/response.html" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+         <form action="/response.php" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 </form>
  
