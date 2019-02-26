@@ -175,19 +175,17 @@
 <div class="responseform">
   
     <h2>Contact Info or Quick Response</h2>
+  
+   <form action="/response.html" method="post">
+  Name: <input type="text" name="name" value="<?php echo $name;?>">
 
-  <form action="/response.html" method="post">
-    First Name: <input type="text" name"$txt1"><br>
-      </form>
-   <form action="/response.html" method="post">
-  Last Name: <input type="text" name="$txt2"><br>
-   </form>
-  <form action="/response.html" method="post">
-  Any comments or concerns?: <input type="text" name="$txt3"><br>
-   </form>
-   <form action="/response.html" method="post">
-  Contact Info.: <input type="text" name="$txt4"><br>
-   </form>
+E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+
+Website: <input type="text" name="website" value="<?php echo $website;?>">
+
+Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+</form>
+ 
  <p>Contact (956) 451-2068 (956) 266-8376 associate numbers or via email Hazelcorp.1@gmail.com
  <br />
  <br />
