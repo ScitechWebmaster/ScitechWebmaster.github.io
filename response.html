@@ -6,26 +6,24 @@
 <h1 style="align-text:center;">Response Page</h1>
  
 
+<p>Thank you for your response:</p>
+ <p style="align-text:center;">We will get right back to you once a provider is available.</p>
 <?php
-echo "<p>Thank you for your response:  "$name"  </p>"!";
+echo $name;
+echo "<br>";
 ?>
-
-
-  <?php
-
-echo $_GET["lname"]; 
-?> 
-<p style="align-text:center;">We will get right back to you once a provider is available.</p>
-  
+ <p style="align-text:center;">CONTACT INFO WILL BE CONFIDENTIAL</p>
  <?php
-echo $_GET["cc"]; 
-?> 
-  <p style="align-text:center;">Thanks for the comment or consern we'll get back to you momentarily.</p>
-  <?php
-echo $_GET["ci"]; 
-?> 
-  <p style="align-text:center;">CONTACT INFO WILL BE CONFIDENTIAL</p>
+echo $email;
+echo "<br>";
+
+echo $comment;
+echo"<br>";
+?>
+ <p style="align-text:center;">Thanks for the comment or consern we'll get back to you momentarily.</p>
   
+ 
+ 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
